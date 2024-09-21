@@ -5,7 +5,7 @@ export default function AddListing() {
 
       <form
         className="flex flex-col items-start gap-4"
-        action="/api/add"
+        action="/api/listings"
         method="POST">
         <label className="form-control w-full max-w-xs">
           <div className="label">

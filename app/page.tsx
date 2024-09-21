@@ -2,7 +2,7 @@ import Link from "next/link"
 import { createTable, dropTable } from "./utils/db_config"
 
 // dropTable("listings")
-createTable("listings")
+// createTable("listings")
 
 export default function Home() {
   return (
